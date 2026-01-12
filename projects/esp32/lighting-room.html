@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>مشروع غرفة متكاملة · ESP32</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <header class="site-header">
+      <div class="brand">
+        <div class="brand-logo">IT</div>
+        <div>
+          <div class="brand-text-main">Smart Automation Studio</div>
+          <div class="brand-text-sub">ESP32 · Room Control</div>
+        </div>
+      </div>
+      <div class="header-right">
+        <nav class="nav-links">
+          <a href="../../index.html">الرئيسية</a>
+          <a href="../../esp32.html" class="active">ESP32</a>
+          <a href="../../contact.html">تواصل</a>
+        </nav>
+        <a class="lang-switch" href="../../index-en.html">English</a>
+      </div>
+    </header>
+
+    <section class="page-header">
+      <div class="breadcrumb">
+        ESP32 / مشروع غرفة متكاملة
+      </div>
+      <h1 class="page-title">مشروع غرفة متكاملة (إضاءة + تكييف + ستائر)</h1>
+      <p class="page-intro">
+        مشروع عملي مبني على ESP32 للتحكم في غرفة كاملة: 3 دوائر إضاءة، ستارة كهربائية، و وحدة تكييف،
+        مع تكامل كامل مع Home Assistant و سيناريوهات متعددة للحضور و الراحة و الطاقة.
+      </p>
+    </section>
+
+    <section class="project-detail-layout">
+      <div>
+        <div class="project-gallery">
+          <img src="../../images/esp32-lighting-1.jpg" alt="لوحة ESP32" />
+          <img src="../../images/esp32-lighting-2.jpg" alt="واجهة Home Assistant" />
+          <img src="../../images/esp32-lighting-3.jpg" alt="الغرفة بعد التنفيذ" />
+        </div>
+
+        <div class="project-detail-card">
+          <h3>ملخص المشروع</h3>
+          <p>
+            تم بناء وحدة تحكم باستخدام ESP32 مع Relay Board للتحكم في 3 دوائر إضاءة، خرج للتحكم في الستارة،
+            و واجهة IR أو Modbus للتحكم في المكيف. النظام متكامل بشكل كامل مع Home Assistant مع لوحة تحكم
+            مخصصة للغرفة، وسيناريوهات متعددة.
+          </p>
+          <div class="project-detail-meta">
+            التقنية المستخدمة: ESP32 · ESPHome · MQTT · Home Assistant
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="project-detail-card">
+          <h3>المكونات الرئيسية</h3>
+          <ul>
+            <li>لوحة ESP32 مع تغذية مستقرة و حماية</li>
+            <li>Relay Board للتحكم في 3 دوائر إضاءة</li>
+            <li>خرج للتحكم في موتور الستارة (Up / Down)</li>
+            <li>واجهة IR Blaster أو Modbus للتحكم في المكيف</li>
+            <li>تكامل مع Home Assistant عبر ESPHome</li>
+          </ul>
+        </div>
+
+        <div class="project-detail-card">
+          <h3>السيناريوهات و الأتمتة</h3>
+          <ul>
+            <li>وضع الضيافة: إضاءة مريحة + تكييف على وضع معيّن</li>
+            <li>وضع النوم: إضاءة خافتة + إغلاق الستارة</li>
+            <li>وضع Away: إطفاء الإضاءة و التكييف و فتح جزء من الستارة</li>
+            <li>تنبيهات في حال ارتفاع حرارة اللوحة أو زيادة الحمل</li>
+          </ul>
+        </div>
+
+        <div class="project-detail-card">
+          <h3>هل تريد مشروع مشابه؟</h3>
+          <p>
+            يمكن تنفيذ نفس الفكرة لغرف متعددة، أو تخصيصها لنوع مختلف من الغرف (مجلس، صالة، غرفة نوم، مكتب).
+            يمكنك التواصل لشرح تفاصيل مشروعك.
+          </p>
+          <a class="btn-primary" href="mailto:yourmail@example.com">تواصل عبر البريد</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div>© 2026 Smart Automation Studio</div>
+      <div class="footer-contact">
+        <a href="mailto:yourmail@example.com">yourmail@example.com</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

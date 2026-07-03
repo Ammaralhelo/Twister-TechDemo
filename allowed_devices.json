@@ -1,7 +1,5 @@
-{
-  "allowed": [
-    "DEVICE_ID_1",
-    "DEVICE_ID_2",
-    "DEVICE_ID_3"
-  ]
-}
+[
+  "ANDROID_123456789_abcdef_Samsung_Galaxy_S21",
+  "ANDROID_987654321_xyzabc_Xiaomi_Redmi_Note_10",
+  "IOS_ABCDEF-1234-5678-90AB-CDEF12345678"
+]

@@ -1,17 +1,6 @@
 {
-  "version": 1,
-  "licenses": {
-    "2fdc83a81a6f45b": {
-      "customer": "Twister Tech",
-      "expire": "2027-12-31",
-      "status": "active",
-      "signature": "8a4d7e1c2..."
-    },
-    "ab34c78d91ff22aa": {
-      "customer": "Ahmed",
-      "expire": "2026-09-01",
-      "status": "active",
-      "signature": "5b2ee7..."
-    }
-  }
+  "devices": [
+    "DEVICE_ID_1",
+    "DEVICE_ID_2"
+  ]
 }
